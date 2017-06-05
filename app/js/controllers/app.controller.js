@@ -1,6 +1,6 @@
 //appController
 /**
- * @author ctola
+ * @author mano
  */
 (function() {
     angular

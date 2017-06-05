@@ -1,5 +1,5 @@
 /**
- * @author ctola
+ * @author mano
  */
 (function() {
   'use strict';

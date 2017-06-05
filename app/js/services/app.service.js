@@ -223,67 +223,83 @@
   }
 },
 oldMatches = {
-  "data": [
-    {
-      "title": "Durham 166/10 &  78/1 * v Northamptonshire 338/10 ",
-      "description": "Durham 166/10 &  78/1 * v Northamptonshire 338/10 ",
-      "unique_id": "1068607"
-    },
-    {
-      "title": "Hampshire 515/10  v Warwickshire 49/6 *",
-      "description": "Hampshire 515/10  v Warwickshire 49/6 *",
-      "unique_id": "1068546"
-    },
-    {
-      "title": "Middlesex 42 * v Somerset 443/9 ",
-      "description": "Middlesex 42 * v Somerset 443/9 ",
-      "unique_id": "1068545"
-    },
-    {
-      "title": "Nottinghamshire 67/2 &  229/10 * v Derbyshire 363/10 ",
-      "description": "Nottinghamshire 67/2 &  229/10 * v Derbyshire 363/10 ",
-      "unique_id": "1068606"
-    },
-    {
-      "title": "Sussex 579/8  v Worcestershire 139 *",
-      "description": "Sussex 579/8  v Worcestershire 139 *",
-      "unique_id": "1068608"
-    },
-    {
-      "title": "Yorkshire 273/10  v Lancashire 123/10 &  141/4 *",
-      "description": "Yorkshire 273/10  v Lancashire 123/10 &  141/4 *",
-      "unique_id": "1068547"
-    },
-    {
-      "title": "West Indies 112/3  v Afghanistan 93/10 *",
-      "description": "West Indies 112/3  v Afghanistan 93/10 *",
-      "unique_id": "1089777"
-    },
-    {
-      "title": "India v Pakistan",
-      "description": "India v Pakistan",
-      "unique_id": "1022353"
-    },
-    {
-      "title": "Northern Knights v Leinster Lightning",
-      "description": "Northern Knights v Leinster Lightning",
-      "unique_id": "1089607"
-    }
-  ],
-  "cache": false,
-  "v": "1",
-  "ttl": 388,
+  "creditsLeft": 243,
   "provider": {
     "source": "Various",
     "url": "https://cricapi.com/",
-    "pubDate": "2017-06-04T06:26:36.791Z"
+    "pubDate": "2017-06-05T03:25:47.815Z"
   },
-  "creditsLeft": 250
+  "ttl": 63,
+  "v": "1",
+  "cache": true,
+  "data": [
+    {
+      "unique_id": "1068607",
+      "description": "Durham 376/10 &  166/10  v Northamptonshire 44/1 &  338/10 *",
+      "title": "Durham 376/10 &  166/10  v Northamptonshire 44/1 &  338/10 *"
+    },
+    {
+      "unique_id": "1068546",
+      "description": "Hampshire 515/10  v Warwickshire 254/10 &  75/2 *",
+      "title": "Hampshire 515/10  v Warwickshire 254/10 &  75/2 *"
+    },
+    {
+      "unique_id": "1068545",
+      "description": "Middlesex 311/7 * v Somerset 443/9 ",
+      "title": "Middlesex 311/7 * v Somerset 443/9 "
+    },
+    {
+      "unique_id": "1068606",
+      "description": "Nottinghamshire 229/10 &  313/6 * v Derbyshire 363/10 ",
+      "title": "Nottinghamshire 229/10 &  313/6 * v Derbyshire 363/10 "
+    },
+    {
+      "unique_id": "1068608",
+      "description": "Sussex 579/8  v Worcestershire 312/10 &  124/4 *",
+      "title": "Sussex 579/8  v Worcestershire 312/10 &  124/4 *"
+    },
+    {
+      "unique_id": "1100298",
+      "description": "Abahani Limited v Sheikh Jamal Dhanmondi Club",
+      "title": "Abahani Limited v Sheikh Jamal Dhanmondi Club"
+    },
+    {
+      "unique_id": "1100297",
+      "description": "Gazi Group Cricketers v Prime Doleshwar Sporting Club",
+      "title": "Gazi Group Cricketers v Prime Doleshwar Sporting Club"
+    },
+    {
+      "unique_id": "1100299",
+      "description": "Prime Bank Cricket Club v Mohammedan Sporting Club",
+      "title": "Prime Bank Cricket Club v Mohammedan Sporting Club"
+    },
+    {
+      "unique_id": "1098965",
+      "description": "Armed Police Force Club v Nepal Police Club",
+      "title": "Armed Police Force Club v Nepal Police Club"
+    },
+    {
+      "unique_id": "1089600",
+      "description": "Northern Knights v Leinster Lightning",
+      "title": "Northern Knights v Leinster Lightning"
+    },
+    {
+      "unique_id": "1022355",
+      "description": "Australia v Bangladesh",
+      "title": "Australia v Bangladesh"
+    },
+    {
+      "unique_id": "1097114",
+      "description": "England Lions v South Africa A",
+      "title": "England Lions v South Africa A"
+    }
+  ],
+  "cache2": true
 },match = {
   "matches": [
     {
       "unique_id": 1068546,
-      "date": "2017-06-04T00:00:00.000Z",
+      "date": "2017-06-05T00:00:00.000Z",
       "squad": false,
       "team2": "Warwickshire",
       "team1": "Hampshire",
@@ -291,23 +307,15 @@ oldMatches = {
     },
     {
       "unique_id": 1068545,
-      "date": "2017-06-04T00:00:00.000Z",
+      "date": "2017-06-05T00:00:00.000Z",
       "squad": false,
       "team2": "Somerset",
       "team1": "Middlesex",
       "matchStarted": true
     },
     {
-      "unique_id": 1068547,
-      "date": "2017-06-04T00:00:00.000Z",
-      "team2": "Lancashire",
-      "team1": "Yorkshire",
-      "matchStarted": true,
-      "squad": false
-    },
-    {
       "unique_id": 1068607,
-      "date": "2017-06-04T00:00:00.000Z",
+      "date": "2017-06-05T00:00:00.000Z",
       "squad": false,
       "team2": "Northamptonshire",
       "team1": "Durham",
@@ -315,7 +323,7 @@ oldMatches = {
     },
     {
       "unique_id": 1068606,
-      "date": "2017-06-04T00:00:00.000Z",
+      "date": "2017-06-05T00:00:00.000Z",
       "squad": false,
       "team2": "Derbyshire",
       "team1": "Nottinghamshire",
@@ -323,35 +331,11 @@ oldMatches = {
     },
     {
       "unique_id": 1068608,
-      "date": "2017-06-04T00:00:00.000Z",
+      "date": "2017-06-05T00:00:00.000Z",
       "squad": false,
       "team2": "Worcestershire",
       "team1": "Sussex",
       "matchStarted": true
-    },
-    {
-      "unique_id": 1022353,
-      "team2": "Pakistan",
-      "team1": "India",
-      "matchStarted": false,
-      "squad": true,
-      "date": "2017-06-04T00:00:00.000Z"
-    },
-    {
-      "unique_id": 1089777,
-      "date": "2017-06-04T00:00:00.000Z",
-      "squad": true,
-      "team2": "Afghanistan",
-      "team1": "West Indies",
-      "matchStarted": true
-    },
-    {
-      "unique_id": 1089607,
-      "date": "2017-06-04T00:00:00.000Z",
-      "squad": false,
-      "team2": "Leinster Lightning",
-      "team1": "Northern Knights",
-      "matchStarted": false
     },
     {
       "unique_id": 1022355,
@@ -370,6 +354,14 @@ oldMatches = {
       "squad": true
     },
     {
+      "unique_id": 1089600,
+      "date": "2017-06-05T00:00:00.000Z",
+      "squad": false,
+      "team2": "Leinster Lightning",
+      "team1": "Northern Knights",
+      "matchStarted": false
+    },
+    {
       "unique_id": 1097114,
       "date": "2017-06-05T00:00:00.000Z",
       "squad": true,
@@ -383,7 +375,7 @@ oldMatches = {
       "squad": false,
       "team2": "Nepal Police Club",
       "team1": "Armed Police Force Club",
-      "matchStarted": false
+      "matchStarted": true
     },
     {
       "unique_id": 1100298,
@@ -407,7 +399,7 @@ oldMatches = {
       "squad": false,
       "team2": "Mohammedan Sporting Club",
       "team1": "Prime Bank Cricket Club",
-      "matchStarted": false
+      "matchStarted": true
     },
     {
       "unique_id": 1022357,
@@ -420,7 +412,7 @@ oldMatches = {
     {
       "unique_id": 1068738,
       "date": "2017-06-06T00:00:00.000Z",
-      "squad": false,
+      "squad": true,
       "team2": "Namibia",
       "team1": "Scotland",
       "matchStarted": false
@@ -560,16 +552,24 @@ oldMatches = {
       "team2": "Glamorgan",
       "team1": "Worcestershire",
       "matchStarted": false
+    },
+    {
+      "unique_id": 1022365,
+      "date": "2017-06-10T00:00:00.000Z",
+      "squad": true,
+      "team2": "Australia",
+      "team1": "England",
+      "matchStarted": false
     }
   ],
   "v": "1",
-  "ttl": 5,
+  "ttl": 4,
   "provider": {
     "source": "Various",
     "url": "https://cricapi.com/",
-    "pubDate": "2017-06-04T02:50:09.581Z"
+    "pubDate": "2017-06-05T03:23:59.747Z"
   },
-  "creditsLeft": 250
+  "creditsLeft": 243
 },
 leagues = [{
 name:'Indian Premier League',
