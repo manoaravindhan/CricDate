@@ -6,7 +6,7 @@
             <div class="card-content">
               <span class="card-title"><i class="material-icons">play_circle_filled</i> Matches</span>
               <div class="divider"></div>
-                <ul id="live-matches" ng-repeat='innings in todaysMatch| limitTo: quantity'>
+                <ul id="live-matches" ng-repeat='innings in todaysMatch  | orderBy:"-matchStarted" | limitTo: quantity'>
                   <li><a ui-sref="match({id:{{innings.unique_id}}})">
                   <span class="blue-text text-darken-2 bold">{{innings.team1}}</span>  vs  <span class="blue-text text-darken-2 bold">{{innings.team2}}</span> <span class="new badge" data-badge-caption=""  ng-show="{{innings.matchStarted}}">Live</span></a>
                   <div class="divider"></div>

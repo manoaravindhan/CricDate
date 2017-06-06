@@ -15,9 +15,9 @@
             location.href = location.href.split('/')[0] +'/login.html';
         };  
         var user = localStorage.getItem('user');
-        if(user === "")
-            location.href = location.href.split('/')[0] +'/login.html';
-        else
+        if(user)
             $scope.user = JSON.parse(user);   
+        else
+            location.href = location.href.split('/')[0] +'/login.html';
         }
 })();

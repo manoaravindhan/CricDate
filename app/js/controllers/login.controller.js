@@ -12,7 +12,7 @@
         //vars
         /* jshint validthis: true */
         var user = localStorage.getItem('user');
-        if(user !== "")
+        if(!(user == null || user ==undefined || user == '')) 
             location.href = location.href.replace('/login.html','/');
         $scope.user = {};
         $scope.login = function(){

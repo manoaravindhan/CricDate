@@ -41,7 +41,7 @@ gulp.task('css', function() {
 });
 /*recargar js*/
 gulp.task('js', function() {
-    gulp.src('./app/js/**/*.js')
+    gulp.src(['./app/js/config/*.js','./app/js/controllers/*.js','./app/js/services/*.js','./app/js/directives/*.js','./app/js/*.js'])
         .pipe(connect.reload());
 });
 /*recargar html*/
@@ -63,7 +63,7 @@ gulp.task('minify-html', function() {
 
 /* minificar y encriptar js */
 gulp.task('minify-js', function() {
-    return gulp.src('./app/js/**/*.js')
+    return gulp.src(['./app/js/config/*.js','./app/js/controllers/*.js','./app/js/services/*.js','./app/js/directives/*.js','./app/js/*.js'])
         .pipe(sourcemaps.init())
         .pipe(concat('app.min.js'))
         .pipe(uglify())
